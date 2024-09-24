@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Open Sans", sans-serif;
+}
+form{
+    width: 450px;
+     box-shadow: 3px 3px 4px grey;
+     margin: 20px auto;
+     border-radius: 10px;
+     border-top: 5px solid blue;
+     padding: 25px;
+}
+form h2{
+    color: navy;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.gigi{
+     font-style: normal;
+    font-weight: 500;
+     margin-bottom: 25px;
+    
+
+}
+label,
+input,
+.submit-btl{
+    display: block;
+    width: 100%;
+
+}
+label{
+    margin-bottom: 10px;
+    font-size: 12px
+}
+input, .submit-btl{
+    height: 35px;
+}
+input{
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: small;
+    
+}
+.anchor{
+    display: inline-block;
+    margin-bottom: 13px;
+}
+.submit-btl{
+    text-decoration-color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color:white;
+    border: none;
+}
+.have{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+.password-container{
+    position: relative;
+}
+.password-container button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 39px;
+
+
+}
